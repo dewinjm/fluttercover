@@ -1,0 +1,38 @@
+{
+  "name": "fluttercover",
+  "version": "0.1.0",
+  "description": "Run flutter coverage",
+  "main": "cli.js",
+  "type": "module",
+  "bin": {
+    "fluttercover": "cli.js"
+  },
+  "scripts": {
+    "start": "node cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dewinjm/fluttercover.git"
+  },
+  "keywords": [
+    "flutter",
+    "dart",
+    "sh",
+    "coverage"
+  ],
+  "author": {
+    "name": "Dewin J. Martinez",
+    "email": "me@dewinmartinez.com",
+    "url": "https://dewinmartinez.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dewinjm/fluttercover/issues"
+  },
+  "homepage": "https://github.com/dewinjm/fluttercover#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "meow": "^10.1.1"
+  }
+}
