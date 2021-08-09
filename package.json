@@ -1,6 +1,9 @@
 {
   "name": "fluttercover",
   "version": "0.1.0",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@dewinjm"
+  },
   "description": "Run flutter coverage",
   "main": "cli.js",
   "type": "module",
